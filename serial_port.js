@@ -3,6 +3,7 @@ const { SerialPort } = require('serialport');
 const { ReadlineParser } = require('@serialport/parser-readline');
 
 // Created two virtual serial ports using "Virtual Serial Port Driver"
+// We can create any port of our choice
 const sendingPortName = 'COM3';
 const receivingPortName = 'COM4';
 
